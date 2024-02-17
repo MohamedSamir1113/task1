@@ -17,7 +17,7 @@ function Searchbar() {
                 <div className="col-md-1">
                
                 <div className="position-relative ">
-                    <IoIosNotifications style={{color:"cyan",display:"inline-block",fontSize:"30px"}}/>
+                    <IoIosNotifications style={{color:"cyan",display:"block",fontSize:"30px"}}/>
                      <div className={styles.notifyNumber}>6</div>
                 </div>
               </div>
