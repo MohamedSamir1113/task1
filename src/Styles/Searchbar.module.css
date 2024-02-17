@@ -42,3 +42,20 @@ width: 20px;
 .search::placeholder {
   color: white !important;
 }
+
+.alert
+{
+  position: relative;
+}
+
+.alert::after
+{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 15px;
+  background-color: rgb(83 172 255);
+  border-radius: 10px;
+  width: 4px;
+  height: 47px;
+}
