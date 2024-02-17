@@ -1,10 +1,37 @@
 
 import styles from "../Styles/Searchbar.module.css";
 import { IoIosNotifications } from "react-icons/io";
+import styled from 'styled-components';
 
 
 function Searchbar() {
-   
+  const NotificationContainer = styled.div`
+  position: relative;
+  display: inline-block;
+`;
+
+const NotificationIcon = styled(IoIosNotifications)`
+  color: cyan;
+  font-size: 40px;
+`;
+
+const NotificationCounter = styled.div`
+  position: absolute;
+  top: -7px;
+  right: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: green;
+  color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+`;
+
   return (
     <>       
        <div className="row d-flex  align-items-center justify-content-between mb-4">
@@ -16,10 +43,10 @@ function Searchbar() {
                 </div>
                 <div className="col-md-1">
                
-                <div className="position-relative ">
-                    <IoIosNotifications style={{color:"cyan",display:"block",fontSize:"30px"}}/>
-                     <div className={styles.notifyNumber}>6</div>
-                </div>
+                <NotificationContainer>
+      <NotificationIcon />
+      <NotificationCounter>3</NotificationCounter>
+    </NotificationContainer>
               </div>
               </div>
              
