@@ -1,0 +1,68 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 60px;
+    background-color: #181818;
+    transition: width 0.5s ease;
+     overflow: hidden;  
+    z-index: 9999999;
+}
+.sidebar:hover {
+    width: 170px;
+}
+
+
+.logoColor
+{
+    color: #5d5d5d;
+}
+
+
+
+.Links:hover {
+    color: #53ACFF !important;
+    transition: 0.7s ease;
+    cursor: pointer;
+}
+
+.person {
+    width: 40px;
+    height: 40px;
+}
+
+.personWrapper {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: -1rem;
+}
+
+.inc
+{
+    position: absolute;
+    bottom: 0px;
+   font-size: 12px;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: -1rem;
+}
+
+.person2 {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 2rem;
+}
+
+.personName
+{
+    font-size: 15px !important;
+    color: white !important;
+    font-weight: bold !important;
+}
+

@@ -1,0 +1,107 @@
+.line1
+{
+    position: relative;
+}
+
+.line1::after
+{
+    content: "";
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 1px;
+    height: 100%;
+     top: 0;
+     left: 17px;
+}
+.line2
+{
+    position: relative;
+}
+
+.line2::after
+{
+    content: "";
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 1px;
+    height: 70%;
+     top: 0;
+     left: 7px;
+}
+
+.card
+{
+    background-color:rgba(32, 32, 32, 1);
+    border-radius: 10px;
+}
+.realstate
+{
+    background-color: rgb(83 172 255);
+}
+.applyBtn
+{
+    background-color: rgb(83 172 255);
+}
+.applyBtn:hover
+{
+    background-color: rgb(83 172 255);
+}
+p{
+    margin: 0;
+}
+.filters
+{
+    background-color:rgba(24, 24, 24, 1);
+}
+
+.search {
+    background-color: rgba(107, 107, 107, 1) !important;
+    border-radius: 5px !important;
+    
+    margin-top: -.1rem;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 15px) center;
+    padding-right: 25px;
+}
+
+.search::placeholder {
+    color: gray;
+}
+
+input[type="radio"]
+{
+    accent-color: #282c34 !important;
+}
+
+.strat {
+    background: linear-gradient(360deg, #FFFFFF -72%, #202020 100%);
+    background-clip: inherit;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+.strat2 {
+    background: linear-gradient(180deg, #FFFFFF -114%, #202020 100%);
+    background-clip: inherit;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+
+.options
+{
+    background-color: #53acff;
+    width: 60%;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+}
+.options2
+{
+    background-color: #53acff;
+    width: 27%;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+}
